@@ -22,17 +22,19 @@ function setBalance(value){
 //machine id> hide all> show id
 
 function showId(id){
-    const addmoney=document.getElementById('add-money');
+    const addMoney=document.getElementById('add-money');
     const cashout=document.getElementById('cashout');
-    const history=document.getElementById('history')
-    const transferMoney=document.getElementById('transfer-Money')
-    const PayBill=document.getElementById('pay-bill')
+    const history=document.getElementById('history');
+    const transferMoney=document.getElementById('transfer-Money');
+    const PayBill=document.getElementById('pay-bill');
+    const GetBonus=document.getElementById('get-bonus');
 
-    addmoney.classList.add('hidden')
+    addMoney.classList.add('hidden')
     cashout.classList.add('hidden')
     history.classList.add('hidden')
     transferMoney.classList.add('hidden')
     PayBill.classList.add('hidden')
+    GetBonus.classList.add('hidden')
 
     const select=document.getElementById(id);
     select.classList.remove('hidden')
