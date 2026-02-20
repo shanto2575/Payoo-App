@@ -18,10 +18,8 @@ document.getElementById('get-bonus-btn').addEventListener('click', function () {
     const coupon = getValueFormInput('get-bonus-coupon');
     if (coupon === 'bonus2026') {
         alert('Get Bonus Successful');
-        BalanceValue.innerText = newBalance;
-
+        BalanceValue.innerText = newBalance;        
         
-
         //transaction check
         const history = document.getElementById('history-container');
         console.log(history)
