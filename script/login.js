@@ -8,7 +8,7 @@ document.getElementById('login-btn').addEventListener('click',function(){
     const pin=inputPin.value;
     console.log(pin)
 
-    if(contactNumber=='01751389425' && pin=='1234'){
+    if(contactNumber=='01234567890' && pin=='1234'){
         alert('login Successful')
         window.location.assign('./home.html')
     }
